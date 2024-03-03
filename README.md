@@ -25,3 +25,38 @@ tags: HTML tags are the keywords on a web page that define how your web browser 
 
 2. How does meta- UTF-8 work, Meta tags functions
   -->
+
+
+  Sure, here's a tabular format outlining the differences between HTML `<div>`, `<section>`, and `<article>` tags:
+
+| Feature                   | `<div>`                           | `<section>`                       | `<article>`                       |
+|---------------------------|-----------------------------------|-----------------------------------|-----------------------------------|
+| Semantic Meaning          | Generic container for content     | Represents a thematic grouping of content within a document | Represents an independent piece of content |
+| Accessibility            | Does not provide any semantic meaning on its own | Provides a clearer structure for content and assists accessibility tools | Provides a clear delineation of standalone content |
+| Nesting                   | Can contain any other HTML elements, including other `<div>` elements | Can contain any other HTML elements, including other `<section>` elements | Can contain any HTML elements, but typically represents standalone content |
+| SEO Impact               | Minimal SEO impact due to lack of semantic meaning | Helps search engines understand the structure and relevance of content | Helps search engines identify and prioritize standalone content |
+| Styling                     | Often used for styling purposes by applying CSS classes or IDs | Can be targeted for styling, but also carries semantic meaning which may affect styling | Similar to `<section>`, can be styled, but carries specific semantic meaning |
+
+For your second question about meta tags:
+
+**Meta-UTF-8:** 
+
+The `<meta>` tag with the `charset` attribute is used to specify the character encoding for an HTML document. When you set `charset="UTF-8"`, it informs the browser that the document is encoded using the UTF-8 character encoding standard.
+
+```html
+<meta charset="UTF-8">
+```
+
+**Functions of Meta Tags:**
+
+1. **Metadata:** Meta tags provide metadata about the HTML document. This metadata includes information such as the author of the document, keywords related to the content, the description of the document, and the character encoding used.
+
+2. **SEO:** Meta tags play a crucial role in search engine optimization (SEO). For instance, the `<meta name="description" content="Your description here">` tag allows webmasters to provide a brief description of the webpage, which may be displayed in search engine results.
+
+3. **Viewport Configuration:** The `<meta name="viewport">` tag is used to control the layout and scaling of a webpage on different devices. This is particularly important for ensuring that web pages are displayed properly on mobile devices.
+
+4. **Social Media Sharing:** Meta tags like `<meta property="og:title" content="Title">` and `<meta property="og:description" content="Description">` are used to customize how content appears when shared on social media platforms like Facebook and Twitter.
+
+5. **Browser Behavior Control:** Meta tags can influence the behavior of web browsers in various ways. For example, the `<meta http-equiv="refresh" content="30">` tag can be used to automatically refresh or redirect a webpage after a specified time interval.
+
+Overall, meta tags provide valuable information to browsers, search engines, and other web services, helping to improve the visibility, accessibility, and functionality of web pages.
