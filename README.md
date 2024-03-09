@@ -60,3 +60,11 @@ The `<meta>` tag with the `charset` attribute is used to specify the character e
 5. **Browser Behavior Control:** Meta tags can influence the behavior of web browsers in various ways. For example, the `<meta http-equiv="refresh" content="30">` tag can be used to automatically refresh or redirect a webpage after a specified time interval.
 
 Overall, meta tags provide valuable information to browsers, search engines, and other web services, helping to improve the visibility, accessibility, and functionality of web pages.
+
+
+## Day 2 
+# ordered list and unordered list
+# void element self closing tag
+# image tag
+# video
+# iframe
