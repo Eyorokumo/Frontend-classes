@@ -68,3 +68,9 @@ Overall, meta tags provide valuable information to browsers, search engines, and
 # image tag
 # video
 # iframe
+
+### Day 3 
+
+# table 
+#  Form
+#  muilt -page links eg about us , 
